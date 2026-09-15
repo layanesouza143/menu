@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_prime"
+            android:icon="@drawable/cart"
+            android:title="Carrinho"/>
+
+        <item
+            android:id="@+id/nav_fashion"
+            android:icon="@drawable/shoes"
+            android:title="Sapatos"/>
+
+        <item
+            android:id="@+id/nav_eletronics"
+            android:icon="@drawable/clothesboy"
+            android:title="Masculino"/>
+
+        <item
+            android:id="@+id/nav_Food"
+            android:icon="@drawable/dress"
+            android:title="Feminino"/>
+
+        <item
+            android:id="@+id/nav_Beauty"
+            android:icon="@drawable/cosmetic"
+            android:title="Cosméticos"/>
+        <item
+            android:id="@+id/nav_furniture"
+            android:icon="@drawable/electronics"
+            android:title="Eletrônicos"/>
+    </group>
+</menu>

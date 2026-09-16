@@ -61,7 +61,7 @@
 
         <com.google.android.material.navigation.NavigationView
             android:id="@+id/navigation_drawer"
-            android:layout_width="match_parent"
+            android:layout_width="334dp"
             android:layout_height="939dp"
             android:layout_gravity="start"
             android:layout_marginTop="?attr/actionBarSize"

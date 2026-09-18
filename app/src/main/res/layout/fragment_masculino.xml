@@ -8,10 +8,9 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Fashion"
+        android:text="Roupas masculinas"
         android:gravity="center"
         android:textColor="@color/orange"
         android:textSize="36sp"/>
-
 
 </FrameLayout>

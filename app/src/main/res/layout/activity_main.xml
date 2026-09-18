@@ -58,6 +58,7 @@
             android:src="@drawable/add"
             app:layout_anchor="@id/bottomAppbar"
             app:maxImageSize="40dp" />
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
 
         <com.google.android.material.navigation.NavigationView
             android:id="@+id/navigation_drawer"
@@ -70,7 +71,6 @@
             app:itemIconTint="@color/orange"
             app:itemTextColor="@color/orange"
             app:menu="@menu/nav_menu" />
-    </androidx.coordinatorlayout.widget.CoordinatorLayout>
 
 
 </androidx.drawerlayout.widget.DrawerLayout>

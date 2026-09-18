@@ -16,6 +16,7 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import com.google.android.material.navigation.NavigationView
 import com.layane.menu.databinding.ActivityMainBinding
+import com.layane.menu.databinding.FragmentMasculinoBinding
 
 class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelectedListener {
 
@@ -66,12 +67,12 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
 
     override fun onNavigationItemSelected(item: MenuItem): Boolean {
         when(item.itemId){
-            R.id.nav_prime -> openFragment(CarrinhoFragment())
-            R.id.nav_fashion -> openFragment(MasculinoFragment())
-            R.id.nav_eletronics -> openFragment(EletronicsFragment())
+            R.id.nav_carrinho -> openFragment(CarrinhoFragment())
+            R.id.nav_eletronics-> openFragment(EletronicsFragment())
+            R.id.nav_boy -> openFragment(MasculinoFragment())
+            R.id.nav_girl -> Toast.makeText(this, "Rouoas femininas", Toast.LENGTH_SHORT).show()
             R.id.nav_Beauty -> Toast.makeText(this, "Cosméticos", Toast.LENGTH_SHORT).show()
-            R.id.nav_Food -> Toast.makeText(this, "Feminino", Toast.LENGTH_SHORT).show()
-            R.id.nav_furniture -> Toast.makeText(this, "Sapatos", Toast.LENGTH_SHORT).show()
+            R.id.nav_shoes -> Toast.makeText(this, "Sapatos", Toast.LENGTH_SHORT).show()
         }
         binding.drawerLayout.closeDrawer(GravityCompat.START)
         return true

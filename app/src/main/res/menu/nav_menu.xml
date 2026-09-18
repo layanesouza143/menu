@@ -5,22 +5,21 @@
     <group
         android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_prime"
+            android:id="@+id/nav_carrinho"
             android:icon="@drawable/cart"
             android:title="Carrinho"/>
-
-        <item
-            android:id="@+id/nav_fashion"
-            android:icon="@drawable/shoes"
-            android:title="Sapatos"/>
-
         <item
             android:id="@+id/nav_eletronics"
+            android:icon="@drawable/electronics"
+            android:title="Eletrônicos"/>
+
+        <item
+            android:id="@+id/nav_boy"
             android:icon="@drawable/clothesboy"
             android:title="Masculino"/>
 
         <item
-            android:id="@+id/nav_Food"
+            android:id="@+id/nav_girl"
             android:icon="@drawable/dress"
             android:title="Feminino"/>
 
@@ -28,9 +27,10 @@
             android:id="@+id/nav_Beauty"
             android:icon="@drawable/cosmetic"
             android:title="Cosméticos"/>
+
         <item
-            android:id="@+id/nav_furniture"
-            android:icon="@drawable/electronics"
-            android:title="Eletrônicos"/>
+            android:id="@+id/nav_shoes"
+            android:icon="@drawable/shoes"
+            android:title="Sapatos"/>
     </group>
 </menu>
